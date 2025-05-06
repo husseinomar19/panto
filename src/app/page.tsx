@@ -1,12 +1,15 @@
 import hero from "../app/assest/Image/hero.png"
 import Header from  "../app/compoents/Header"
 import { IoIosSearch } from "react-icons/io";
+import MhyUs from "../app/compoents/whyus";
+import Exper from "@/app/compoents/svg/exper"
+import Sell from "@/app/compoents/sell";
 export default function Home() {
   return (
     <>
      
      <div
-      className="w-full h-[1084px] bg-cover bg-center px-[80px] py-[20px]"
+      className="w-full h-[1084px] bg-cover bg-center py-[20px]"
       style={{ backgroundImage: `url(${hero.src})` }}>
        
 
@@ -32,9 +35,17 @@ export default function Home() {
        </div>
 
 
+
+
        
 
     </div>
+      <MhyUs />
+
+      <Exper />
+
+      <Sell />
+
 
 
     </>

@@ -27,7 +27,8 @@ const navbar = [
 export default function Header(){
     return (
         <>
-        <div className="flex justify-between items-center w-full" >
+        <div className="w-full flex justify-center items-center">
+        <div className="flex justify-between items-center w-full max-w-[1200px]" >
              <h2 className="font-bold text-[28px] text-white">Panto</h2>
 
              <ul className="flex items-center space-x-[40px] text-white">
@@ -43,6 +44,7 @@ export default function Header(){
              </ul>
 
              <ShopIcon />
+        </div>
         </div>
 
         </>
