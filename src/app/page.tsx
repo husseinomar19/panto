@@ -4,6 +4,7 @@ import { IoIosSearch } from "react-icons/io";
 import MhyUs from "../app/compoents/whyus";
 import Exper from "@/app/compoents/svg/exper"
 import Sell from "@/app/compoents/sell";
+import Footer from "@/app/compoents/footer/Footer"
 export default function Home() {
   return (
     <>
@@ -45,6 +46,8 @@ export default function Home() {
       <Exper />
 
       <Sell />
+
+      <Footer />
 
 
 

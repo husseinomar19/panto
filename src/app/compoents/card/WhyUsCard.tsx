@@ -15,7 +15,7 @@ export default function WhyUsCard({title , descrebtion , url , size , pw, mt}:pr
       <div>
         <h2 className={`text-[${titelsize}px] font-bold tracking-[1px] text-[#1E1E1E]`}>{title}</h2>
         <p
-         style={{ width: `${pwidth}px` }} className={`text-[#1E1E1E] text-[16px] font-normal mt-[15px]`}>
+         style={{ width: `${pwidth}px` }} className={`text-[#1E1E1E] text-[14px] font-normal mt-[15px]`}>
           {descrebtion}
         </p>
 
