@@ -5,6 +5,9 @@ import MhyUs from "../app/compoents/whyus";
 import Exper from "@/app/compoents/svg/exper"
 import Sell from "@/app/compoents/sell";
 import Footer from "@/app/compoents/footer/Footer"
+import { CarouselSize } from "./compoents/silder/CarouselSize";
+import BestSell from "./compoents/BestSell";
+import OurClient from "./compoents/Ourclient";
 export default function Home() {
   return (
     <>
@@ -43,11 +46,18 @@ export default function Home() {
     </div>
       <MhyUs />
 
+      <BestSell />
+
       <Exper />
 
       <Sell />
+      
+      <OurClient />
 
       <Footer />
+
+
+    
 
 
 
