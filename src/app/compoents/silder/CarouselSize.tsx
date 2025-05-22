@@ -3,6 +3,7 @@ import Image from "next/image"
 import char from "@/app/assest/Image/char.png"
 import { FaStar } from "react-icons/fa6";
 import { FiPlus } from "react-icons/fi";
+
 import {
   Carousel,
   CarouselContent,
